@@ -1,0 +1,178 @@
+body {
+    margin: 0;
+}
+
+.Page {
+    display: flex;
+    flex-direction: column;
+    border-style: solid;
+    border-color:red;
+}
+
+.First {
+    background-color: #1F2937;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    border-style: solid;
+    border-color:red;
+}
+
+.Header {
+    font-weight: bolder;
+    display: flex;
+    justify-content: space-between;
+    padding-left: 150px;
+    padding-right: 100px;
+    border-style: solid;
+    border-color:red;
+}
+
+ul {
+    display:flex;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+    border-style: solid;
+    border-color:red;
+}
+
+.signup-image {
+    display: flex;
+    justify-content: center;
+    padding: 30px;
+    gap: 30px;
+    border-style: solid;
+    border-color:red;
+}
+
+.left {
+    /* flex: 1; */
+    display: flex;
+    flex-direction: column;
+    width: 350px;
+    flex-wrap: wrap;
+    border-style: solid;
+    border-color:red;
+}
+
+.right {
+    /* flex: 2; */
+    border-style: solid;
+    border-color:red;
+}
+
+.box1 {
+    display: flex;
+    width: 400px;
+    height: 200px;
+    background-color: grey;
+    justify-content: center;
+    align-items: center;
+    border-style: solid;
+    border-color:red;
+}
+
+.image {
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    border-style: solid;
+    border-color:red;
+    
+}
+
+.inside1 {
+    display: flex;
+    width: 200px;
+    border-style: solid;
+    border-color:red;
+}
+
+.inside2 {
+    display: flex;
+    width: 350px;
+    border-style: solid;
+    border-color:red;
+
+}
+
+.Second {
+    display: flex;
+    flex-direction: column;
+    border-style: solid;
+    border-color:red;
+}
+
+.Header-2 {
+    display: flex;
+    justify-content: center;
+    border-style: solid;
+    border-color:red;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+    border-style: solid;
+    border-color:red;
+}
+
+.item {
+    width: 150px;
+    border-style: solid;
+    border-color:red;
+}
+
+.box {
+    width: 150px;
+    height: 150px;
+    border-style: solid;
+    border-color: blue;
+}
+
+.text {
+    text-align: center;
+    border-style: solid;
+    border-color:red;
+}
+
+.third {
+    background-color: #E5E7EB;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: flex-end;
+    border-style: solid;
+    border-color:red;
+    padding-top: 20px;
+    padding-bottom: 40px;
+    padding-right: 250px;
+    /* padding: 20px; */
+}
+
+.quote {
+    color: #1F2937;
+    font-size: 36px; 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 750px;
+    /* border-style: solid;
+    border-color:green; */
+    font-style: italic;
+    height: 160px;
+}
+
+.person {
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    font-weight: bold;
+    color: #1F2937;
+    font-size: 20px;
+    padding-right: 20px;
+    /* border-style: solid;
+    border-color:red; */
+}
